@@ -13,13 +13,15 @@
 
 body {
     font-family:'Courier New', Courier, monospace;
-    background-color: #2D2D33;
+    background-image: url(imgs-especiais/wallpaper004.jpg);
 }
 
 header {
     background-image: linear-gradient(to right, #414361, #434AA1, #2733E0);
     margin: 0;
     border: white 1px solid;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.543);
+    padding: 20px 0 20px 0;
 }
 
 header > h1 {
@@ -81,4 +83,13 @@ main > img {
 
 .abaixo {
     padding-top: 20px;
+}
+
+div.areafundo {
+    width: 300px;
+    height: 300px;
+    background-image: url(imgs-especiais/pattern004.png);
+    border: 3px solid #2733E0;
+    margin: auto;
+    margin-bottom: 20px;
 }
