@@ -13,7 +13,8 @@
 
 body {
     font-family:'Courier New', Courier, monospace;
-    background-image: url(imgs-especiais/wallpaper004.jpg);
+    background: black url(imgs-especiais/wallpaper004.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
