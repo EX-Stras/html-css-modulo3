@@ -94,6 +94,14 @@ main > img {
     margin-bottom: 20px;
 }
 
+main > p > a {
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
 .abaixo {
     padding-top: 20px;
 }
