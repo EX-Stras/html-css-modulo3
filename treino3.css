@@ -159,6 +159,10 @@ strong {
     color: #2733E0;
 }
 
+pre {
+    text-align: center;
+}
+
 table.primeira {
     margin: auto;
     background-color: rgba(0, 0, 255, 0.49);
