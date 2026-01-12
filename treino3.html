@@ -114,7 +114,7 @@
 
         <p>Nesse capítulo eu tenho que reproduzir um site que foi me passado em aula, vou deixar apenas algumas anotações para facilitar minha vida.</p>
 
-        <p>O site é esse aqui: <a href="https://ex-stras.github.io/html-css-modulo3/projeto-site-exemplo/index.html">🧷Site Exemplo🧷</a></p>
+        <p>O site é esse aqui: <a href="https://ex-stras.github.io/Desafio-cordel/cordel.html">🧷Desafio do Cordel🧷</a></p>
 
         <p>&lt;anotações de ajuda&gt;</p>
 
@@ -126,7 +126,113 @@
 
         <p>O clamp define um tamanho mínimo, um tamanho ideal e um tamanho máximo. No exemplo acima, o tamanho mínimo é 16px, o tamanho ideal é 2vw (2% da largura da viewport) e o tamanho máximo é 20px.</p>
 
+        <p>O ideal era usar mídia query, mas eu ainda não aprendi 🫠.</p>
+
         <p>&lt;/anotações de ajuda&gt;</p>
+
+        <h1>Tabelas - Cap 21</h1>
+
+        <p>O primeiro objetivo é fazer uma tabela igual a essa:</p>
+
+        <pre>
+            A1 B1 C1
+            A2 B2 C2
+            A3 B3 C3
+            A4 B4 C4
+        </pre>
+
+        <p>Para isso usamos as tags &lt;table&gt;, &lt;tr&gt;, &lt;th&gt; e &lt;td&gt;.</p>
+
+        <table class="primeira">
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+
+        <p>Pronto, aí está uma tabela bem simples.</p>
+
+        <p>Na tabela temos uma "hierarquia" de elementos: a tag &lt;table&gt; é a principal, e dentro dela temos as linhas &lt;tr&gt;, e dentro das linhas, as células &lt;td&gt;. As células podem ser de dados (td) ou de cabeçalho (th).</p>
+
+        <p>No caso que acabou de ser mostrado, a tabela tem 4 linhas e 3 colunas, sendo que não temos um linha de cabeçalho nela (th), mas temos células de dados (td).</p>
+
+        <p>Para criar linhas na tabela basta colocar o estilo border nos elementos td/th.</p>
+
+        <p>À seguir um exemplo mais desenvolvido:</p>
+
+        <table class="desenvolvida">
+            <tr>
+                <th>Nomes</th>
+                <th>Idades</th>
+                <th>Cidades</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>25</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Bruno</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>28</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </table>
+
+        <p>Essa ficou com bem mais cara de tabela.</p>
+
+        <p>Eu vou usar essa tabela de exemplo para os testes daqui em diante.</p>
+
+        <p>A tag border-collapse: tem 2 valores interessantes, o que estava na tabela anterior é o border-collapse: separate, o outro valor interessante é border-collapse: collapse.</p>
+
+        <p>Veja à seguir:</p>
+        <div class="collapse">
+             <table class="desenvolvida">
+                <tr>
+                    <th>Nomes</th>
+                    <th>Idades</th>
+                    <th>Cidades</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>25</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>30</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>28</td>
+                    <td>Belo Horizonte</td>
+                </tr>
+                     </table>
+         </div>
+
+        
+
 
     </main>
 

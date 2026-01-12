@@ -158,3 +158,30 @@ div.areafundo5 {
 strong {
     color: #2733E0;
 }
+
+table.primeira {
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.49);
+    border: 2px solid #2733E0;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+} 
+
+table.desenvolvida {
+    margin: auto;
+    width: 80%;
+    background-color: rgba(0, 0, 255, 0.49);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+table.desenvolvida th, table.desenvolvida td {
+    border: 2px solid #2733E0;
+    padding: 10px;
+    color: white;
+}
+
+div.collapse > table.desenvolvida {
+    border-collapse: collapse;
+}
