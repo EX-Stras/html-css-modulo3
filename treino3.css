@@ -232,7 +232,7 @@ tbody.grande > tr > td {
     text-align: center;
 }
 
-tfoot.grande > tr > td {
+tfoot.grande > tr > th {
     background-color: #2733E0;
     color: white;
     border: solid 2px rgba(0, 0, 0, 0.524);
