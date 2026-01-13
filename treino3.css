@@ -208,6 +208,7 @@ table.grande {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 caption {
@@ -232,6 +233,11 @@ tbody.grande > tr > td {
     background-color: rgba(0, 0, 255, 0.494);
     border: solid 2px rgba(0, 0, 0, 0.524);
     text-align: center;
+}
+
+tbody.grande > tr:nth-child(2n) {
+    background-color: #2733E0;
+    color: white;
 }
 
 tfoot.grande > tr > th {
