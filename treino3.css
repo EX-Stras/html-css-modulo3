@@ -166,8 +166,8 @@ pre {
 table {
     width: 80%;
     margin: auto;
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 table > tbody > tr > td, table > thead > tr > th {
@@ -353,6 +353,28 @@ table.esquisita > tbody > tr > td, table.esquisita > tbody > tr > th {
     border: 2px black solid;
     text-align: center;
 }
+
+table.esquisita > thead > tr > th, table.esquisita > tfoot > tr > th, table.esquisita > tfoot > tr > td {
+    padding: 5px;
+    border: 2px black solid;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+}
+
+div > table.esquisita {
+    margin-bottom: 0;
+    border-collapse: collapse;
+    width: 70%;
+    min-width: 450px;
+}
+
+col.teste {
+    background-color: blue;
+    color: white;
+}
+
 
 /* </TABELAS> */
 
